@@ -16,7 +16,7 @@ function ChatHistory() {
         };
 
         fetchChatHistory();
-    });
+    }, []);
 
     return (
         <div className="chat-history">
